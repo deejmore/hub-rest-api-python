@@ -108,3 +108,6 @@ venv.bak/
 .restconfig.json
 examples/.restconfig.json
 oss-sample
+poc188/.restconfig.json
+poc188
+telstra-health
