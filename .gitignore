@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#blackduck
+.restconfig.json
+examples/.restconfig.json
+oss-sample
