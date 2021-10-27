@@ -111,7 +111,7 @@ class HubInstance(object):
     from .Versions import ( add_version_as_component, remove_version_as_component )
     from .Scans import (
         delete_codelocation, delete_unmapped_codelocations, download_project_scans, 
-        get_codelocation_scan_summaries, get_codelocations, get_scan_locations, upload_scan
+        get_codelocation_scan_summaries, get_codelocations, get_codelocations_internal, get_scan_locations, upload_scan
     )
     from .Components import (
         _get_components_url, find_component_info_for_protex_component, get_component_by_id, 
@@ -123,6 +123,7 @@ class HubInstance(object):
         supported_cf_object_types
     )
     from .Licences import ( _get_license_info, get_license_info_for_bom_component, get_licenses )
+    from .Snippet import ( _check_version_compatibility, get_file_matches_for_bom_component )
     from .System import ( get_health_checks, get_notifications )
     from .Ldap import ( disable_ldap, enable_ldap, get_ldap_configs, get_ldap_state )
 
